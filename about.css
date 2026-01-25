@@ -158,3 +158,38 @@ margin-bottom: 50px;
   background: #2563eb;
   transform: translateY(-10px);
 }
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar{
+    flex-direction: column;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .menu{
+    margin: 10px 0;
+    gap: 25px;
+  }
+
+  /* ORTA KUTU */
+  .yapim{
+    width: 90%;
+    height: auto;
+    padding: 25px;
+    margin-top: 80px;
+  }
+
+  /* BUTONLAR */
+  .info,
+  .proje,
+  .about-btn{
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* SOSYAL MEDYA */
+  .social-media{
+    margin-bottom: 40px;
+  }
+}
