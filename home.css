@@ -87,19 +87,23 @@ body{
 }
 
 .yapim{
-   text-align: center;
-   margin-top: 150px;
-   width: 300px;
-   height: 300px;
-   margin-left: 620px;
-   border-radius: 20px;
-   border: 1px solid rgba(0, 255, 120, 0.35);
+
+  text-align: center;
+  margin: 150px auto;   
+  width: 90%;
+  max-width: 320px;     
+  height: auto;
+  padding: 30px 20px;
+
+  border-radius: 20px;
+  border: 1px solid rgba(0, 255, 120, 0.35);
   box-shadow: 0 0 15px rgba(0, 255, 120, 0.25);
-  text-decoration: none;
-
-
-
 }
+
+
+
+
+
 .yapim h2{
     color: rgb(90, 244, 7);
     font-family: 'Times New Roman', Times, serif;
@@ -155,7 +159,7 @@ body{
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .social-btn {
@@ -228,40 +232,28 @@ body{
   display: inline-flex;
   margin-top: 100px;
 }
-@media (max-width: 768px) {
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 40px;
+}
 
-  /* NAVBAR */
-  .navbar{
-    flex-direction: column;
-    height: auto;
-    padding: 15px 0;
-  }
+.about-btn,
+.proje {
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #f1f5f3;
+  color: #0b2b1d;
+  transition: all 0.3s ease;
+  border: none;
+}
 
-  .menu{
-    margin: 10px 0;
-    gap: 25px;
-  }
+@media screen and (min-width: 480px) and (max-width: 768px){
 
-  /* ORTA KUTU */
-  .yapim{
-    width: 90%;
-    height: auto;
-    padding: 25px;
-    margin-top: 80px;
-  }
 
-  /* BUTONLAR */
-  .info,
-  .proje,
-  .about-btn{
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  /* SOSYAL MEDYA */
-  .social-media{
-    margin-bottom: 40px;
-  }
 }
 
 
